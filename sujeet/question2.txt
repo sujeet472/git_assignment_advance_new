@@ -1,0 +1,6 @@
+Q2. How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+
+Ans: git remote add origin (url);
+     git add upstream (url)
+
+     YES we can have multiple remote repo linked to the same project.

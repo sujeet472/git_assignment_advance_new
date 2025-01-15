@@ -1,0 +1,20 @@
+Q2. How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+
+Ans: 
+
+
+git remote add origin https://github.com/sujeet472/project.git
+git remote add upstream https://gitlab.com/sujeet472/project.git
+git remote -v
+
+git add .
+git commit -m "Initial commit"
+
+
+git push origin main // for github
+
+git push upstream main // for gitlabs
+
+
+
+     YES we can have multiple remote repo linked to the same project.

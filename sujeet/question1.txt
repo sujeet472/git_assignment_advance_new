@@ -1,0 +1,9 @@
+Q1. What is cherry-pick? Explain the use case of it and also write steps to do it.
+
+Ans : Cherry-pick is a git command which is use to add commits of any different branch in your branch this helps us to chose an specific comment and apply that to your code.
+
+
+supporse you are on the branch sujeet
+the command is like : git cherry-pick c1 c2
+
+so your head will now point to sujeet(branch)-> c1> c2 (head);
